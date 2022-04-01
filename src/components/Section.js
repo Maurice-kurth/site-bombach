@@ -1,6 +1,5 @@
 import React from "react";
 import "./Section.css";
-import { Link } from "react-router-dom";
 import Button from "./Button";
 function Section(props) {
   return (

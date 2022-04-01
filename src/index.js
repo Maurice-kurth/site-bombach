@@ -3,7 +3,6 @@ import ReactDOM from "react-dom";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import App from "./App";
 import Chevaux from "./components/pages/Chevaux";
-import Home from "./components/pages/Home";
 
 ReactDOM.render(
   <BrowserRouter>

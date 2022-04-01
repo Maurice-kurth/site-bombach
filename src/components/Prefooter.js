@@ -1,6 +1,6 @@
 import React from "react";
 import "./Prefooter.css";
-import PrefooterItem from "./PrefooterItem";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 function Prefooter() {
   return (
@@ -44,6 +44,7 @@ function Prefooter() {
               class="contact__fb"
               href="https://www.facebook.com/Ferme-de-Bombach-104796522973212"
               target="_blank"
+              rel="noreferrer"
             >
               <FontAwesomeIcon icon={["fab", "facebook-f"]} /> La page Facebook
             </a>
