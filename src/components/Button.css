@@ -1,0 +1,99 @@
+/*.btn--white {
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+    background-color: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    color: #1D1C1C;
+    font-weight: 600;
+    min-width: 180px;
+    text-align: center;
+}
+
+.btn--dark {
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+    background: #1D1C1C;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    color: white;
+    font-weight: 600;
+    min-width: 150px;
+    text-align: center;
+}
+*/
+/* https://enjeck.com/btns/ */
+
+
+
+.btn:hover .btn-slide-show-text1 {
+    margin-left: 65px;
+}
+
+.btn-shadow {
+    display: inline-block;
+    margin: 5px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    text-align: center;
+    background: none;
+    outline: none;
+    border: none;
+}
+
+/*
+.btn-shadow::before {
+    content: "";
+    height: 40px;
+    position: absolute;
+    bottom: -1px;
+    left: 10px;
+    right: 10px;
+    z-index: 0;
+    border-radius: 2em;
+    filter: brightness(0.9);
+}
+*/
+.btn-shadow span {
+    display: inline-block;
+    transition: all 0.3s ease-out 0s;
+    padding: 1rem 1.5rem;
+    border-radius: 15px;
+    position: relative;
+    z-index: 2;
+    will-change: transform;
+    min-width: 150px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.btn-shadow:hover {
+    color: rgb(255, 255, 255);
+}
+
+.btn-shadow:hover span {
+
+    transform: scale(0.96);
+}
+
+.btn-shadow:hover::before {
+    bottom: 8px;
+
+    left: 15px;
+    right: 15px;
+}
+
+.btn-shadow--dark span {
+    background: rgb(51, 51, 51);
+}
+
+.btn-shadow--white span {
+    background: rgb(255, 255, 255);
+    color: black;
+}
+
+.btn-shadow--green span {
+    background: #839860;
+    color: white;
+}

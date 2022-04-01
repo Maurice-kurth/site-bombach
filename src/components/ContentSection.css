@@ -1,0 +1,8 @@
+.content__section {
+    max-width: 960px;
+    margin: 4rem auto;
+}
+
+.content__section h2 {
+    margin-bottom: 1rem;
+}

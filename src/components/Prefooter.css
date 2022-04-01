@@ -1,0 +1,86 @@
+.prefooter__container {
+    width: 100%;
+    margin: 5rem auto 0;
+}
+
+.prefooter__container h2 {
+    font-size: 3rem;
+}
+
+
+
+.prefooter__wrap {
+    display: flex;
+    flex-direction: row;
+    max-width: 1200px;
+    margin: 2rem auto;
+
+}
+
+.prefooter__address {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    row-gap: 2rem;
+}
+
+.prefooter__address address {
+    text-align: center;
+}
+
+.prefooter__contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    row-gap: 2rem;
+}
+
+.prefooter__contact p {
+    max-width: 500px;
+}
+
+.prefooter__contact__links {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    align-items: flex-start;
+
+}
+
+.prefooter__contact__links a {
+    color: #141414;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    column-gap: 2rem;
+}
+
+.prefooter__contact__links svg {
+    font-size: 32px;
+    height: 35px;
+    width: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.prefooter__contact__links .contact__tel svg {
+    color: #839860;
+}
+
+.prefooter__contact__links .contact__mail svg {
+    color: #444141;
+}
+
+.prefooter__contact__links .contact__fb svg {
+    color: #3982E4;
+}
+
+.prefooter__wrap>div {
+    flex: 1;
+}
