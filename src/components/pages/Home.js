@@ -10,21 +10,24 @@ function Home() {
       <Cards />
       <Section
         title="Les pensions de chevaux"
-        description="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non atque dolores numquam odio quaerat harum? Laudantium inventore quod ipsum magni ipsa aliquam illo, rerum vitae voluptates minima! "
-        textPosition="right"
+        description="La ferme met ses installations à disposition de votre cheval :
+Pensions
+Box / Stabulations / Prairie -
+2 carrières et 1 manège. De nombreux obstacles de cross
+Selleries et sanitaires"
         image="./images/luxor-iago-vallee.jpg"
         color="#63595C"
       />
       <Section
         title="Le gîte"
-        description="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non atque dolores numquam odio quaerat harum? Laudantium inventore quod ipsum magni ipsa aliquam illo, rerum vitae voluptates minima! Ab accusantium pariatur id dolor sint officia laboriosam ipsa culpa asperiores doloremque! Perferendis tenetur ut dolorum quam maxime!"
+        description="Venez passer des vacances à la ferme ou y séjourner pour découvrir la région. Avec une cuisine commune à disposition et un total de 20 lits, les familles et groupes de toutes tailles sont les bienvenus !"
         textPosition="left"
         image="./images/gîte.jpg"
         color="#444141"
       />
       <Section
         title="Les vaches à lait"
-        description="Lorem ipsum dolor sit amet consectetur, adipisicing elit."
+        description="La ferme produit également du Lait BIO avec ses 60 vaches Holstein qui patûrent dans les prés presque toute l'année."
         textPosition="right"
         image="./images/holstein-1.jpg"
         color="#839860"

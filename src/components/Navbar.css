@@ -48,7 +48,7 @@
     list-style: none;
     text-align: center;
     width: auto;
-    justify-content: end;
+    justify-content: start;
     margin-right: 10em;
     margin-left: auto;
 }
@@ -66,13 +66,29 @@
     height: 100%;
 }
 
+@media screen and (max-width:960px) {
+    .nav-links {
+        color: white;
+    }
+
+    .navbar-logo {
+        width: 100%;
+    }
+
+    .fa-bars,
+    .fa-times {
+        color: white;
+    }
+
+}
+
 .nav-links:hover {
     border-bottom: 4px solid #444141;
     transition: all 0.2s ease-out;
 }
 
 .fa-bars {
-    color: #000;
+    color: white;
 }
 
 .nav-links-mobile {
@@ -134,7 +150,7 @@
     }
 
     .fa-times {
-        color: #000;
+        color: white;
         font-size: 2rem;
     }
 

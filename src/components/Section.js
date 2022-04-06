@@ -16,7 +16,7 @@ function Section(props) {
         <p>{props.description}</p>
 
         <div className="section__cta">
-          <Button btnType="white" to="/" label="En savoir plus" />
+          <Button btnType="white" to="/contact" label="En savoir plus" />
           <Button btnType="dark" to="/contact" label="Contact" />
         </div>
       </div>

@@ -46,20 +46,12 @@ function Navbar() {
               </Link>
             </li>
             <li className="nav-item">
-              <Link
-                to="/page-1"
-                className="nav-links"
-                onClick={closeMobileMenu}
-              >
+              <Link to="/404" className="nav-links" onClick={closeMobileMenu}>
                 Lait BIO
               </Link>
             </li>
             <li className="nav-item">
-              <Link
-                to="/page-2"
-                className="nav-links"
-                onClick={closeMobileMenu}
-              >
+              <Link to="/404" className="nav-links" onClick={closeMobileMenu}>
                 Gîte
               </Link>
             </li>
@@ -73,10 +65,6 @@ function Navbar() {
               </Link>
             </li>
           </ul>
-        </div>
-        <div className="language-menu">
-          <p>FR</p>
-          <p>DE</p>
         </div>
       </nav>
     </>

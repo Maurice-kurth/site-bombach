@@ -22,7 +22,7 @@ function HeroSection() {
           </p>
         </div>
         <div className="hero__intro__cta">
-          <Button btnType="green" to="/" label="Voir la galerie" />
+          <Button btnType="green" to="/404" label="Voir la galerie" />
           <Button btnType="dark" to="/contact" label="Contact" />
         </div>
       </div>

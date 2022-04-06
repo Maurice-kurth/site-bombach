@@ -47,6 +47,19 @@ img {
     flex-direction: row;
 }
 
+@media screen and (max-width:960px) {
+    h1 {
+        padding: 1rem 2rem;
+    }
+
+    .hero__intro {
+        max-width: 100%;
+        flex-direction: column;
+        padding: 0 2rem;
+    }
+
+}
+
 .hero__intro__text {
     flex: 1;
 }
