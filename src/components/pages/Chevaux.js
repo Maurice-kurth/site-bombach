@@ -3,7 +3,6 @@ import Footer from "../Footer";
 import Navbar from "../Navbar";
 import Prefooter from "../Prefooter";
 import PageTitle from "../PageTitle";
-import Section from "../Section";
 import ContentSection from "../ContentSection";
 function Chevaux() {
   return (
