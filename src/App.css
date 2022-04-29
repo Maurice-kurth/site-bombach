@@ -15,3 +15,8 @@ h2,
 .navbar-logo {
   font-family: 'Readex Pro', sans-serif;
 }
+
+.banner__image {
+  height: 450px;
+  filter: brightness(75%);
+}

@@ -1,7 +1,8 @@
 .content__section {
-    max-width: 960px;
+    /* max-width: 960px;
     margin: 4rem auto;
-
+*/
+    flex-basis: 500px;
 }
 
 @media (max-width:960px) {
@@ -14,4 +15,14 @@
 
 .content__section h2 {
     margin-bottom: 1rem;
+}
+
+.content__flex {
+    display: flex;
+    flex-wrap: wrap;
+    width: min(calc(100% - 4rem), 1250px);
+    justify-content: center;
+    margin-inline: auto;
+    margin-top: 5rem;
+    row-gap: 3rem;
 }
