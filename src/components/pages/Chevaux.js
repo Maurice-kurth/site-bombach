@@ -12,7 +12,7 @@ function Chevaux() {
 
       <img
         className="banner__image"
-        src="/images/luxor-iago-vallee.jpg"
+        src="/images/luxor-iago-vallee.webp"
         alt="Chevaux en promenade"
       />
 

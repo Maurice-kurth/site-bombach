@@ -5,7 +5,7 @@ import "./HeroSection.css";
 function HeroSection() {
   return (
     <div className="hero-container">
-      <img src="images/headerferme.png" alt="Ferme de Bombach" />
+      <img src="images/headerferme.webp" alt="Ferme de Bombach" />
       <h1>Bienvenue à la ferme de Bombach</h1>
       <div className="hero__intro">
         <div className="hero__intro__text">
@@ -40,7 +40,7 @@ function HeroSection() {
           </h4>
         </div>
         <div className="hero__intro__cta">
-          <Button btnType="green" to="/404" label="Voir la galerie" />
+
           <Button btnType="dark" to="/contact" label="Contact" />
         </div>
       </div>

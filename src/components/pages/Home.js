@@ -4,6 +4,9 @@ import React from "react";
 import Cards from "../Cards";
 import Section from "../Section";
 function Home() {
+  /* Section has a default buttonLink prop of value null */
+
+
   return (
     <>
       <HeroSection />
@@ -15,8 +18,9 @@ Pensions
 Box / Stabulations / Prairie -
 2 carrières et 1 manège. De nombreux obstacles de cross
 Selleries et sanitaires"
-        image="./images/luxor-iago-vallee.jpg"
+        image="./images/luxor-iago-vallee.webp"
         color="#63595C"
+        buttonLink="/chevaux"
       />
       <Section
         title="Le gîte"
@@ -24,6 +28,7 @@ Selleries et sanitaires"
         textPosition="left"
         image="./images/gîte.jpg"
         color="#444141"
+        buttonLink="/404"
       />
       <Section
         title="Les vaches à lait"
@@ -31,6 +36,7 @@ Selleries et sanitaires"
         textPosition="right"
         image="./images/holstein-1.jpg"
         color="#839860"
+        buttonLink="/404"
       />
     </>
   );
