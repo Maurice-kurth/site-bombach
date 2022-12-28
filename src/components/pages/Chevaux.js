@@ -50,28 +50,28 @@ function Chevaux() {
               Paddocks à disposition. Libre utilisation des installations.
             </li>
             <li>
-              Pension stabulation hiver et pré l’été. En stabulation : litière
+              Pension stabulation hiver et pré l'été. En stabulation : litière
               de paille, granulés le matin et foin matin et soir. Au pré : foin
               en libre-service et granulés le matin.
             </li>
 
             <li>
               {" "}
-              Cheval impérativement déferré des postérieurs. – Pension jeunes
+              Cheval impérativement déferré des postérieurs. - Pension jeunes
               chevaux et retraités. En stabulation : litière de paille, granulés
               le matin et foin matin et soir. Au pré : foin en libre-service et
               granulés le matin. Cheval impérativement déferré des postérieurs.
-              Pas d’accès aux carrières et au manège.
+              Pas d'accès aux carrières et au manège.
             </li>
           </ul>
         </ContentSection>
 
         <ContentSection title="Opportunités de promenade" paragraph="">
           <ul>
-            <li>Pension box : 290€</li>
-            <li> Pension stabulation hiver et pré l’été : 240€ cheval</li>
+            <li>Pension box : 320€</li>
+            <li> Pension stabulation hiver et pré l'été : 260€ cheval</li>
 
-            <li>Pension jeunes chevaux et retraités : 180€</li>
+            <li>Pension jeunes chevaux et retraités : 200€</li>
           </ul>
         </ContentSection>
       </div>
