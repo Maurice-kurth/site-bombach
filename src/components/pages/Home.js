@@ -1,7 +1,7 @@
 import "../../App.css";
 import HeroSection from "../HeroSection";
 import React from "react";
-import Cards from "../Cards";
+
 import Section from "../Section";
 function Home() {
   /* Section has a default buttonLink prop of value null */
@@ -10,7 +10,7 @@ function Home() {
   return (
     <>
       <HeroSection />
-      <Cards />
+
       <Section
         title="Les pensions de chevaux"
         description="La ferme met ses installations à disposition de votre cheval :
@@ -28,16 +28,9 @@ Selleries et sanitaires"
         textPosition="left"
         image="./images/gîte.jpg"
         color="#444141"
-        buttonLink="/404"
+        buttonLink= ""
       />
-      <Section
-        title="Les vaches à lait"
-        description="La ferme produit également du Lait BIO avec ses 60 vaches Holstein qui patûrent dans les prés presque toute l'année."
-        textPosition="right"
-        image="./images/holstein-1.jpg"
-        color="#839860"
-        buttonLink="/404"
-      />
+   
     </>
   );
 }

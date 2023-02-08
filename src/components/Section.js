@@ -16,8 +16,11 @@ function Section(props) {
         <p>{props.description}</p>
 
         <div className="section__cta">
-          <Button btnType="white" to={props.buttonLink} label="En Savoir Plus" />
-          <Button btnType="dark" to="/contact" label="Contact" />
+          { props.buttonLink ? (
+        <> <Button btnType="white" to={props.buttonLink} label="En savoir plus" /> 
+          <Button btnType="dark" to="/contact" label="Contact" />  </>  ) : (
+            <Button btnType="dark" to="/contact" label="Contact" />
+          )}
         </div>
       </div>
     </section>

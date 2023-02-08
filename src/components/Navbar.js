@@ -46,16 +46,6 @@ function Navbar() {
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/404" className="nav-links" onClick={closeMobileMenu}>
-                Lait BIO
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link to="/404" className="nav-links" onClick={closeMobileMenu}>
-                Gîte
-              </Link>
-            </li>
-            <li className="nav-item">
               <Link
                 to="/contact"
                 className="nav-links"
