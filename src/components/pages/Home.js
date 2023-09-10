@@ -24,7 +24,7 @@ Selleries et sanitaires"
       />
       <Section
         title="Le gîte"
-        description="Venez passer des vacances à la ferme ou y séjourner pour découvrir la région. Avec une cuisine commune à disposition et un total de 20 lits, les familles et groupes de toutes tailles sont les bienvenus !"
+        description="Venez passer des vacances à la ferme ou y séjourner pour découvrir la région. Nous vous proposons un gîte de 6 personnes au 1er étage ainsi qu'un gîte de 8 personnes au 2ème étage.
         textPosition="left"
         image="./images/gîte.jpg"
         color="#444141"
